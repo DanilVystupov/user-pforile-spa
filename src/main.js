@@ -1,7 +1,9 @@
 import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
-import store from './store'
+import App from '@/app/App.vue'
+import router from '@/shared/router'
+import store from '@/shared/store'
+
+import "swiper/swiper-bundle.css";
 
 Vue.config.productionTip = false
 
