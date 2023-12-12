@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import MainPage from '@/pages/MainPage.vue';
 import UserDetailsPage from '@/pages/UserDetailsPage.vue';
 import UserPostsPage from '@/pages/UserPostsPage.vue';
+import UserAlbumsPage from '@/pages/UserAlbumsPage.vue';
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/user/:id/posts', 
     name: 'userPosts',
     component: UserPostsPage,
+  },
+  {
+    path: '/user/:id/albums', 
+    name: 'userAlbums',
+    component: UserAlbumsPage,
   },
 ]
 
